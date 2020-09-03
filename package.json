@@ -1,0 +1,26 @@
+{
+  "name": "ui-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eihabkhan/ui-library.git"
+  },
+  "author": "eihab khan <mastereihab@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eihabkhan/ui-library/issues"
+  },
+  "homepage": "https://github.com/eihabkhan/ui-library#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
